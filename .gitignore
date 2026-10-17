@@ -1,0 +1,23 @@
+# Python Virtual Environment
+venv/
+__pycache__/
+*.pyc
+
+# Heavy Video & Image Files (ไม่เอาขึ้น Git)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.jpg
+*.png
+
+# Firebase Key & Secrets (ห้ามขึ้น Git เด็ดขาด)
+firebase_key.json
+*.json.secret
+.env
+.env.local
+
+# Web / Node Modules
+node_modules/
+.next/
+out/
